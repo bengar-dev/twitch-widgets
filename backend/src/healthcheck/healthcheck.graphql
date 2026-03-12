@@ -1,0 +1,7 @@
+type Healthcheck {
+  status: Boolean!
+}
+
+type Query {
+  healthcheck: Healthcheck!
+}
