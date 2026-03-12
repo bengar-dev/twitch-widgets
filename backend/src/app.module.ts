@@ -4,9 +4,11 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { Request } from 'express';
 import { join } from 'node:path';
 import { HealthcheckModule } from './healthcheck/healthcheck.module';
+import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
   imports: [
+    PrismaModule,
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       graphiql: true,

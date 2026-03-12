@@ -1,0 +1,21 @@
+{
+  "name": "twitch-widgets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "psql": "docker compose up --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengar-dev/twitch-widgets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bengar-dev/twitch-widgets/issues"
+  },
+  "homepage": "https://github.com/bengar-dev/twitch-widgets#readme"
+}
